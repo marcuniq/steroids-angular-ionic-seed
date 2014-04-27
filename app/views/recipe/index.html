@@ -1,0 +1,8 @@
+<div ng-controller="IndexCtrl">
+  <ul class="list">
+    <li class="item item-icon-right" ng-click="open(recipe.id)" ng-repeat="recipe in recipes">
+      Recipe: {{ recipe.name }}
+      <i class="icon ion-ios7-arrow-right"></i>
+    </li>
+  </ul>
+</div>
