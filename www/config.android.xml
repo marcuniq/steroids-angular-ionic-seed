@@ -7,4 +7,8 @@
     <access origin="*" />
 
     <preference name="fullscreen" value="false" />
+    <!-- changes for ionic  -->
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
 </widget>

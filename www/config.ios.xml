@@ -7,7 +7,7 @@
     <access origin="*" />
 
     <preference name="AllowInlineMediaPlayback" value="false" />
-    <preference name="DisallowOverscroll" value="false" />
+    <!--<preference name="DisallowOverscroll" value="false" />-->
     <preference name="EnableViewportScale" value="false" />
     <preference name="HideKeyboardFormAccessoryBar" value="false" />
     <preference name="KeyboardDisplayRequiresUserAction" value="false" />
@@ -24,4 +24,9 @@
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="DisableDoubleTapToFocus" value="true" />
     <preference name="ViewIgnoresStatusBar" value="false" />
+
+    <!-- changes for ionic  -->
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
 </widget>
